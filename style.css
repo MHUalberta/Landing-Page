@@ -9,9 +9,10 @@ body {
     background-color: #1F2937;
 }
 
-.header, .hero p {
+.header, .header a, .hero p {
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .header {
@@ -28,7 +29,7 @@ body {
 
 ul {
     display: flex;
-    gap: 16px;
+    gap: 40px;
 }
 
 li {
@@ -87,6 +88,7 @@ li {
     display: flex;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info div {
